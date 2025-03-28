@@ -1,39 +1,21 @@
+import iconSprite from '../../assets/icons/icons-sprite.svg';
+
 type IconProps = {
   id: string;
   width?: string;
   height?: string;
-  viewBox?: string;
 };
 
-export const Icon = ({ id, width, height, viewBox }: IconProps) => {
+export const Icon = ({ id, width, height }: IconProps) => {
   return (
     <svg
-      width={width || '50'}
-      height={height || '50'}
-      viewBox={viewBox || '0 0 124 124'}
-      fill="none"
+      width={width}
+      height={height}
+      viewBox="0 0 124 124"
+      xmlns="http://www.w3.org/2000/svg"
     >
-      <use xlinkHref={`#${id}`} />
+      <use xlinkHref={`${iconSprite}#${id}`} />
+      {/* <use xlinkHref={`#${id}`} /> */}
     </svg>
   );
 };
-
-// import iconSprite from '../../assets/icons/icons-sprite.svg';
-
-// type IconProps = {
-//   id: string;
-// };
-
-// export const Icon = (props: IconProps) => {
-//   return (
-//     <svg
-//       width="50"
-//       height="50"
-//       viewBox="0 0 124 124"
-//       fill="none"
-//       xmlns="http://www.w3.org/2000/svg"
-//     >
-//       <use xlinkHref={`${iconSprite}#${props.id}`} />
-//     </svg>
-//   );
-// };
