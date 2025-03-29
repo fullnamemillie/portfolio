@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { FlexWrapper } from '../../../components/FlexWrapper/FlexWrapper';
+import { FlexWrapper } from '../../../components/flexWrapper/FlexWrapper';
 import { SectionTitle } from '../../../components/SectionTitle/SectionTitle';
 import { Skill } from './skill/Skill';
 
