@@ -1,4 +1,5 @@
 import './App.css';
+import { Footer } from './layout/footer/Footer';
 // import styled from 'styled-components';
 import { Header } from './layout/header/Header';
 import { Contact } from './layout/sections/contact/Contact';
@@ -18,6 +19,7 @@ function App() {
       <Testimony />
       <Contact />
       <Slogan />
+      <Footer />
     </div>
   );
 }
