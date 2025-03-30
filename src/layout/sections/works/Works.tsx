@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { SectionTitle } from '../../../components/SectionTitle/SectionTitle';
+import { SectionTitle } from '../../../components/sectionTitle/SectionTitle';
 import Menu from '../../../components/menu/Menu';
 import { FlexWrapper } from '../../../components/flexWrapper/FlexWrapper';
 import { Work } from './work/Work';

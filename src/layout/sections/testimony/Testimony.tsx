@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { SectionTitle } from '../../../components/SectionTitle/SectionTitle';
+import { SectionTitle } from '../../../components/sectionTitle/SectionTitle';
 import { Icon } from '../../../components/icon/Icon';
 import { Slider } from '../../../components/slider/Slider';
 import { FlexWrapper } from '../../../components/flexWrapper/FlexWrapper';
