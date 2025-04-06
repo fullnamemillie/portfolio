@@ -19,10 +19,13 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: ${theme.colors.font};
+  line-height: 1.3;
 }
 
   a {
+    color: ${theme.colors.font};
     text-decoration: none;
+    cursor: pointer;
   }
 
   ul {
@@ -32,6 +35,25 @@ body {
   button {
     background-color: unset;
     border: unset;
+    cursor: pointer;
+    color: ${theme.colors.font};
+  }
+
+  section {
+    padding: 100px 0;
+  }
+
+  h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.4;
   }
 
   section:nth-of-type(odd) {
